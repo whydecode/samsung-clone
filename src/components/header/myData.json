@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Mobile",
+    "columns": ["item"],
+    "data": [
+        {"item":"Discover Mobiles"},
+        {"item":"Smartphones"},
+        {"item":"Tablets"},
+        {"item":"Galaxy Book (Laptops)"},
+        {"item":"Watches"},
+        {"item":"Galaxy Buds"},
+        {"item":"Accessories"},
+        {"item":"One UI"},
+        {"item":"Apps & Services"},
+        {"item":"Samsung Student Advantage"},
+        {"item":"Why Galaxy"}
+    ]
+  },
+  {
+    "name": "TV & AV",
+    "columns": ["Recommended", "TVs", "TV by Size", "TV by Resolution", "Projectors","Sound Devices"],
+    "data": [
+      {
+        "Recommended" : "Why Neo QLED",
+        "TVs" :"Discover TVs",
+        "TV by Size":"2m16cm(85') TVs",
+        "TV by Resolution":"QLED 8K",
+        "Projectors":"The Premiere",
+        "Sound Devices":"Discover Sound Devices"
+
+      },
+      {
+        "Recommended" : "Discover Lifestyle TVs",
+        "TVs" :"Crystal 4K UHD",
+        "TV by Size":"1m89cm(75') TVs",
+        "TV by Resolution":"UHD 4K",
+        "Projectors":"The Freestyle",
+        "Sound Devices":"Sound Tower"
+      },
+      {
+        "Recommended" : "Best Samsung Gaming TV",
+        "TVs" :"New QLED",
+        "TV by Size":"1m63cm(65') TVs",
+        "TV by Resolution":"Full HD/HDTVs",
+        "Projectors":"All Projectors",
+        "Sound Devices":"All Sound Devices"
+      },
+      {
+        "Recommended" : "Why Samsung Smart TV",
+        "TVs" :"QLED 4K",
+        "TV by Size":"1m38cm(55') TVs",
+        "TV by Resolution":"",
+        "Projectors":"",
+        "Sound Devices":""
+      },
+      {
+        "Recommended" : "All About TV",
+        "TVs" :"The Frame",
+        "TV by Size":"1m25cm(50') TVs",
+        "TV by Resolution":"",
+        "Projectors":"",
+        "Sound Devices":""
+      },
+      {
+        "Recommended" : "Virtual Product Experience",
+        "TVs" :"The Serif",
+        "TV by Size":"1m08cm(43') TVs",
+        "TV by Resolution":"",
+        "Projectors":"",
+        "Sound Devices":""
+      },
+      {
+        "Recommended" : "",
+        "TVs" :"The Sero",
+        "TV by Size":"80cm(32') TVs",
+        "TV by Resolution":"",
+        "Projectors":"",
+        "Sound Devices":""
+      },
+      {
+        "Recommended" : "",
+        "TVs" :"TV Accessories",
+        "TV by Size":"All TVs",
+        "TV by Resolution":"",
+        "Projectors":"",
+        "Sound Devices":""
+      },
+      {
+        "Recommended" : "",
+        "TVs" :"All TVs",
+        "TV by Size":"",
+        "TV by Resolution":"",
+        "Projectors":"",
+        "Sound Devices":""
+      }
+    ]
+  },
+  {
+    "name": "Home Appliances",
+    "columns": ["Recommended", "Refrigerators", "Washing Machines & Dryers", "Vacuum Cleaners", "Cooking Applicance", "Air Conditioners"],
+    "data": [
+      {
+        "Recommended":"SmartThings Home",
+        "Refrigerators":"All Refrigerator",
+        "Washing Machines & Dryers":"All Washing Machines & Dryers",
+        "Vacuum Cleaners":"All Vacuum Cleaners",
+        "Cooking Applicance":"All Cooking Appliances",
+        "Air Conditioners":"All Air Conditioners"
+      },
+      {
+        "Recommended":"Virtual Product Experience",
+        "Refrigerators":"BESPOKE Refrigerators",
+        "Washing Machines & Dryers":"Front Load",
+        "Vacuum Cleaners":"Jet Stick Vacuum Cleaners",
+        "Cooking Applicance":"Microwave Ovens",
+        "Air Conditioners":"WindFree AC"
+      },
+      {
+        "Recommended":"",
+        "Refrigerators":"French Door",
+        "Washing Machines & Dryers":"Top Load",
+        "Vacuum Cleaners":"Robot Vacuum Cleaners",
+        "Cooking Applicance":"Discover",
+        "Air Conditioners":"Convertible 5in1 AC"
+      },
+      {
+        "Recommended":"",
+        "Refrigerators":"Side by Side",
+        "Washing Machines & Dryers":"Semi Automatic",
+        "Vacuum Cleaners":"",
+        "Cooking Applicance":"",
+        "Air Conditioners":"Wi-Fi Enabled AC"
+      },
+      {
+        "Recommended":"",
+        "Refrigerators":"Double Door",
+        "Washing Machines & Dryers":"Washer-Dryer",
+        "Vacuum Cleaners":"",
+        "Cooking Applicance":"",
+        "Air Conditioners":""
+      },
+      {
+        "Recommended":"",
+        "Refrigerators":"Single Door",
+        "Washing Machines & Dryers":"Dryers",
+        "Vacuum Cleaners":"",
+        "Cooking Applicance":"",
+        "Air Conditioners":""
+      },
+      {
+        "Recommended":"",
+        "Refrigerators":"BESPOKE Panels",
+        "Washing Machines & Dryers":"Air Dresser",
+        "Vacuum Cleaners":"",
+        "Cooking Applicance":"",
+        "Air Conditioners":""
+      },
+      {
+        "Recommended":"",
+        "Refrigerators":"Discover Refrigerators",
+        "Washing Machines & Dryers":"Discover",
+        "Vacuum Cleaners":"",
+        "Cooking Applicance":"",
+        "Air Conditioners":""
+      }
+    ]
+  },
+  {
+    "name": "Laptop & Monitors",
+        "columns": ["Recommended", "Laptops", "Laptops by Size", "Monitors", "Memory & Storage"],
+        "data": [
+        {
+            "Recommended":"Why Smart Monitos",
+            "Laptops":"Discover Galaxy Book",
+            "Laptops by Size":"15' - 16'",
+            "Monitors":"Discover Monitors",
+            "Memory & Storage":"Discover Memory"
+        },
+        {
+            "Recommended":"ViewFinity Monitors",
+            "Laptops":"Galaxy Book3 Ultra",
+            "Laptops by Size":"13' - 14.9'",
+            "Monitors":"Gaming Monitor",
+            "Memory & Storage":"NVMEs SSD"
+        },
+        {
+            "Recommended":"",
+            "Laptops":"Galaxy Book3 360",
+            "Laptops by Size":"All Laptops",
+            "Monitors":"Smart Monitor",
+            "Memory & Storage":"DATA SSD"
+        },
+        {
+            "Recommended":"",
+            "Laptops":"Galaxy Book3 Pro",
+            "Laptops by Size":"",
+            "Monitors":"High Resolution Monitor",
+            "Memory & Storage":"Portable SSD"
+        },
+        {
+            "Recommended":"",
+            "Laptops":"Galaxy Book3 360",
+            "Laptops by Size":"",
+            "Monitors":"Curved Monitor",
+            "Memory & Storage":"Memory Cards"
+        },
+        {
+            "Recommended":"",
+            "Laptops":"Windows 11",
+            "Laptops by Size":"",
+            "Monitors":"Business Monitor",
+            "Memory & Storage":"USB Flash Drive"
+        },
+        {
+            "Recommended":"",
+            "Laptops":"Accessories",
+            "Laptops by Size":"",
+            "Monitors":"All Monitors",
+            "Memory & Storage":"All Memory"
+        },
+        {
+            "Recommended":"",
+            "Laptops":"All Galaxy Book",
+            "Laptops by Size":"",
+            "Monitors":"",
+            "Memory & Storage":""
+        }
+    ]
+    },
+    {
+    "name": "SmartThings",
+    "columns": ["item"],
+    "data": [
+        {"item":"Do the Somethings!"},
+        {"item":"Work from Home"},
+        {"item":"Set the Mood"},
+        {"item":"Think Green"},
+        {"item":"Stay Fit"},
+        {"item":"SmartThings App"}
+    ]
+  },
+  {
+    "name": "SmartThings",
+    "columns": ["Product Help","Repairs & Warrenty", "Contact", "Additional Info"],
+    "data": [
+        {
+            "Product Help":"Support Home",
+            "Repairs & Warrenty":"Warrenty Information",
+            "Contact": "WhatsApp Us",
+            "Additional Info":"News & Alerts"
+        },
+        {
+            "Product Help":"Manual and Software",
+            "Repairs & Warrenty":"Service Locator",
+            "Contact": "Email",
+            "Additional Info":"Smart Switch"
+        },
+        {
+            "Product Help":"Search Support",
+            "Repairs & Warrenty":"Book a Repair",
+            "Contact": "Call",
+            "Additional Info":"TV spare part cost"
+        },
+        {
+            "Product Help":"Digital Service Center",
+            "Repairs & Warrenty":"Track Repair",
+            "Contact": "Sign Language",
+            "Additional Info":"Galaxy Screen Replacement"
+        },
+        {
+            "Product Help":"SHOP FAQ",
+            "Repairs & Warrenty":"Out of Warrenty",
+            "Contact": "Care for clean India",
+            "Additional Info":""
+        },
+        {
+            "Product Help":"",
+            "Repairs & Warrenty":"Phone spare part cost",
+            "Contact": "",
+            "Additional Info":""
+        }
+        
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "lists": [
+    {
+      "title": "Products & Service",
+      "items": [
+        "Smartphones",
+        "Tablets",
+        "Audio Sound",
+        "Watches",
+        "Smart Switch",
+        "Mobile Accessories",
+        "TVs",
+        "Sound Devices",
+        "Refrigerators",
+        "Laundry",
+        "Air Solutions",
+        "Cooking Appliances",
+        "Monitors",
+        "Memory Storage"
+      ]
+    },
+    {
+      "title": "Shop",
+      "items": [
+        "Cancellation & Return Policy",
+        "Track Order Status",
+        "Welcome Voucher",
+        "Samsung Referral Advantage",
+        "Samsung Student Advantage",
+        "Defence Purchase Program",
+        "Corporate Employee Program",
+        "Corporate Bulk Purchase",
+        "Samsung Experience Store",
+        "Store Locator",
+        "Smart Club",
+        "FAQs",
+        "Terms of Use",
+        "Grievance Redressal",
+        "Explore"
+      ]
+    },
+    {
+      "title": "Support",
+      "items": [
+        "WhatsApp Us (हिंदी/ English)",
+        "Sign Language ",
+        "Email Us",
+        "Call Us",
+        "Email the CEO",
+        "Community ",
+        "Product Registration",
+        "Service Centre",
+        "Give Feedback "
+      ]
+    },
+    {
+      "title": "Account & Comnnunity",
+      "items": [
+        "My Page",
+        "My Products",
+        "Orders",
+        "Wishlist",
+        "Vouchers",
+        "My Referrals",
+        "Service",
+        "Community"
+      ]
+    },
+    {
+      "title": "Sustainability",
+      "items": [
+        "Overview",
+        "Environment",
+        "Corporate Citizenship ",
+        "Digital Responsibility",
+        "Security & Privacy",
+        "Accessibility",
+        "Labor & Human Rights",
+        "Diversity & Inclusion",
+        "Sustainable Supply Chain"
+      ]
+    }
+  ]
+}

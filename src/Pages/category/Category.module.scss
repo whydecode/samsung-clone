@@ -1,0 +1,34 @@
+.category{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0 0 0;
+    .category1{
+        margin: 10px;
+        cursor: pointer;
+    }
+    .category2{
+        cursor: pointer;
+        margin: 10px;
+        img{
+        margin-Bottom: 20px;
+        }
+        p{
+            border-bottom: 3px solid black;
+        }
+    }
+    img{
+        margin-Bottom: 25px;
+        &:hover{
+            margin-Bottom: 20px;
+        }
+    }
+    p{
+        font-size: 13px;
+        font-weight: 700;
+        padding-bottom: 15px;
+        border-bottom: 3px solid white;
+        &:hover{border-bottom: 3px solid black;}
+        
+    }
+}
