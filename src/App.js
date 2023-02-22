@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter,Route, Routes } from "react-router-dom";
 // Pages
 import { Home, Contact, Login, Register, Reset } from "./Pages";
 // Components
@@ -6,7 +6,7 @@ import { Header, Footer } from "./components";
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="/reset" element={<Reset />} />
         </Routes>
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }

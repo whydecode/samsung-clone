@@ -1,7 +1,6 @@
 {
   "name": "web-store",
   "version": "0.1.0",
-  "homepage": "https://whydecode.github.io/samsung-clone",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
@@ -21,8 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
     "sass": "^1.58.2"
   }
 }
