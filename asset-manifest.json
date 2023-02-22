@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/samsung-clone/static/css/main.c05e83c0.css",
-    "main.js": "/samsung-clone/static/js/main.27b361a9.js",
+    "main.js": "/samsung-clone/static/js/main.b0c22f04.js",
     "static/js/787.dc3ca347.chunk.js": "/samsung-clone/static/js/787.dc3ca347.chunk.js",
     "static/media/image6.jpg": "/samsung-clone/static/media/image6.cb108198fdc9c6b81cd2.jpg",
     "static/media/image2.jpg": "/samsung-clone/static/media/image2.221dbc0cc28e1e8ed398.jpg",
@@ -44,11 +44,11 @@
     "static/media/category3.webp": "/samsung-clone/static/media/category3.c1cb69eaa4cc0a2703d3.webp",
     "static/media/category2.webp": "/samsung-clone/static/media/category2.d44720e6626a42692f11.webp",
     "main.c05e83c0.css.map": "/samsung-clone/static/css/main.c05e83c0.css.map",
-    "main.27b361a9.js.map": "/samsung-clone/static/js/main.27b361a9.js.map",
+    "main.b0c22f04.js.map": "/samsung-clone/static/js/main.b0c22f04.js.map",
     "787.dc3ca347.chunk.js.map": "/samsung-clone/static/js/787.dc3ca347.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c05e83c0.css",
-    "static/js/main.27b361a9.js"
+    "static/js/main.b0c22f04.js"
   ]
 }
