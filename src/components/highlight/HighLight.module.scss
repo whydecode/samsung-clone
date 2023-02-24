@@ -1,34 +1,20 @@
 .highlight{
-  height: 60vw;
-  width: 80%;
+  width: 80vw;
   overflow-x: hidden;
   h1{
-    font-size: calc(20px + 1vw);
-    margin-bottom: 30px;
-
+    font-size: calc(14px + 1vw);
   }
-  .slide {
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-  .active {
-    z-index: 1;
-  }
-  .contentContainer {
-    position: relative;
+  .contentContainer{
     width: 500%;
-    p {
-      margin: 0;
+    display: flex;
+    .mydiv{
+      width: 100%;
+      transition: transform 0.3s ease-in-out;
     }
-    
   }
-.buttonContainer {
+  .buttonContainer {
 	button {
-		margin: 20px 30px;
+		margin: 20px calc(5px + 1.5vw);
     font-size: calc(8px + 0.6vw);
     background-color: transparent;
     border: none;
@@ -60,6 +46,11 @@
   .buttonActive::before{
       transform: scaleX(1);
     }
+  }
 }
 
+@media screen and (max-width: 1500px) {
+    .highlight{
+        width: 100vw;
+    }
 }

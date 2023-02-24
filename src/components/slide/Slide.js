@@ -13,9 +13,9 @@ const Slide = () => {
   return (
     <div className="slide">
       <ImageGallery
-      showBullets={true}
-      slideInterval={5000}
-      slideDuration={300}
+        showBullets={true}
+        slideInterval={5000}
+        slideDuration={300}
         items={images}
         autoPlay={true}
         showPlayButton={false}

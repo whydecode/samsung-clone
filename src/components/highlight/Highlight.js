@@ -5,6 +5,7 @@ import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
 import Page4 from "./pages/Page4";
 import Page5 from "./pages/Page5";
+
 const Highlight = () => {
   const [activeIndex, setActiveIndex] = useState(0); // initialize the active index to 0
 
@@ -48,42 +49,32 @@ const Highlight = () => {
       </div>
       <div className={styles.contentContainer}>
         <div
-          className={`${styles.slide} ${
-            activeIndex === 0 ? `${styles.active}` : ""
-          }`}
-          style={{ transform: `translateX(${activeIndex * -20}%)` }}
+          className={styles.mydiv}
+          style={{ transform: `translateX(${activeIndex * -100}%)` }}
         >
           <Page1 />
         </div>
         <div
-          className={`${styles.slide} ${
-            activeIndex === 0 ? `${styles.active}` : ""
-          }`}
-          style={{ transform: `translateX(${(activeIndex - 1) * -20}%)` }}
+          className={styles.mydiv}
+          style={{ transform: `translateX(${activeIndex * -100}%)` }}
         >
           <Page2 />
         </div>
         <div
-          className={`${styles.slide} ${
-            activeIndex === 0 ? `${styles.active}` : ""
-          }`}
-          style={{ transform: `translateX(${(activeIndex - 2) * -20}%)` }}
+          className={styles.mydiv}
+          style={{ transform: `translateX(${activeIndex * -100}%)` }}
         >
           <Page3 />
         </div>
         <div
-          className={`${styles.slide} ${
-            activeIndex === 0 ? `${styles.active}` : ""
-          }`}
-          style={{ transform: `translateX(${(activeIndex - 3) * -20}%)` }}
+          className={styles.mydiv}
+          style={{ transform: `translateX(${activeIndex * -100}%)` }}
         >
           <Page4 />
         </div>
         <div
-          className={`${styles.slide} ${
-            activeIndex === 0 ? `${styles.active}` : ""
-          }`}
-          style={{ transform: `translateX(${(activeIndex - 4) * -20}%)` }}
+          className={styles.mydiv}
+          style={{ transform: `translateX(${activeIndex * -100}%)` }}
         >
           <Page5 />
         </div>

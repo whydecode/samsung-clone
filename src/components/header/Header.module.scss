@@ -66,12 +66,16 @@ header {
   }
 
   @media screen and (max-width: 1200px) {
+    .header{
+      height: 60px;
+    }
     nav {
       display: block;
       position: absolute;
       top: 0;
       right: 0;
       width: 50%;
+      min-width: 300px;
       height: 100vh;
       background-color: var(--nav-background);
       padding: 1rem;
@@ -138,7 +142,6 @@ header {
     .cart {
       display: block;
       padding: 5px 0;
-      
       a {
         position: relative;
       }
@@ -176,6 +179,7 @@ header {
 
  @media screen and (max-width: 1200px){
   header{
+    position: fixed;
     .header{
       justify-content: space-between;
     }

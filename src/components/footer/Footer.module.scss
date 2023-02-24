@@ -8,44 +8,51 @@
   font-size: 1.6rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  height: 8rem;
+
   .listBox{
-    height: max-content;
+    width: 20%;
+    min-width: 180px;
     border: 1px solid rgb(220, 220, 220);
     border-bottom: none;
     border-right: none;
-    width: 20%;
     padding-left: 3%;
     padding-top: 15px;
     h3{
-      font-size: calc(6px + 1vw);
+      display: flex;
+      justify-content: space-between;
+      padding-right: 5px;
+      font-size: calc(13px + 0.3vw);
       margin-bottom: 15px;
       font-weight: 500;
+      span{
+        display: none;
+        align-items: center;
+      }
     }
-  }
-  .list{
-    li{
-      list-style: none;
-      font-size: calc(5px + 0.5vw);
-      margin-bottom: 10px;
-      a{
-        &:hover{
-          color: rgb(18, 134, 217);
-          text-decoration: underline;
-          
+    .list{
+      li{
+        list-style: none;
+        margin-bottom: 10px;
+        a{
+          font-size: calc(11px + 0.2vw);
+          &:hover{
+            color: rgb(18, 134, 217);
+            text-decoration: underline;
+            
+          }
         }
       }
     }
   }
+  
   .copyright{
     
     width: 100%;
     p{
       margin-top: 20px;
-      font-size: calc(3px + 0.5vw);
+      font-size: calc(10px + 0.2vw);
       width: 40%;
+      min-width: 300px;
       &:nth-last-child(1){
         margin-Bottom: 20px;
       }
@@ -54,4 +61,24 @@
 
     
   }
+}
+@media screen and (max-width:700px) {
+  .footer{
+    .listBox{
+      width: 100%;
+      h3{
+        span{
+          display: block;
+        }
+      }
+      .list{
+        display: none;
+        margin-bottom: 10px;
+        li{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  
 }

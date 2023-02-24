@@ -9,7 +9,7 @@ import image5 from "../../../assets/page4image5.avif";
 const Page4 = () => {
   return (
     <div className={styles.page1}>
-      <div className={styles.big} style={{ backgroundImage: { image1 } }}>
+      <div className={styles.big1}>
         <img src={image1} alt="" />
         <div
           className={styles.bigContent}
@@ -21,39 +21,41 @@ const Page4 = () => {
           <button>Buy Now</button>
         </div>
       </div>
-      <div>
-        <div className={styles.small}>
-          <img src={image2} alt="" />
-          <div className={styles.smallContent} id={styles.light}>
-            <p>WindFree Split AC</p>
-            <p>Starting &#x20b9;34853*</p>
-            <button>Buy Now</button>
+      <div className={styles.big2}>
+        <div className={styles.small1}>
+          <div className={styles.small}>
+            <img src={image2} alt="" />
+            <div className={styles.smallContent} id={styles.light}>
+              <p>WindFree Split AC</p>
+              <p>Starting &#x20b9;34853*</p>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div className={styles.small}>
+            <img src={image3} alt="" />
+            <div className={styles.smallContent} id={styles.light}>
+              <p>324L Twin Cooling Plus</p>
+              <p>Starting &#x20b9;30240*</p>
+              <button>Buy Now</button>
+            </div>
           </div>
         </div>
-        <div className={styles.small}>
-          <img src={image4} alt="" />
-          <div className={styles.smallContent} id={styles.light}>
-            <p>8.0 Kg AI Ecobubble</p>
-            <p>Starting &#x20b9;32740*</p>
-            <button>Buy Now</button>
+        <div className={styles.small1}>
+          <div className={styles.small}>
+            <img src={image4} alt="" />
+            <div className={styles.smallContent} id={styles.light}>
+              <p>8.0 Kg AI Ecobubble</p>
+              <p>Starting &#x20b9;32740*</p>
+              <button>Buy Now</button>
+            </div>
           </div>
-        </div>
-      </div>
-      <div>
-        <div className={styles.small}>
-          <img src={image3} alt="" />
-          <div className={styles.smallContent} id={styles.light}>
-            <p>324L Twin Cooling Plus</p>
-            <p>Starting &#x20b9;30240*</p>
-            <button>Buy Now</button>
-          </div>
-        </div>
-        <div className={styles.small}>
-          <img src={image5} alt="" />
-          <div className={styles.smallContent} id={styles.light}>
-            <p>28L SlimFry MW</p>
-            <p>Starting &#x20b9;14122*</p>
-            <button>Buy Now</button>
+          <div className={styles.small}>
+            <img src={image5} alt="" />
+            <div className={styles.smallContent} id={styles.light}>
+              <p>28L SlimFry MW</p>
+              <p>Starting &#x20b9;14122*</p>
+              <button>Buy Now</button>
+            </div>
           </div>
         </div>
       </div>

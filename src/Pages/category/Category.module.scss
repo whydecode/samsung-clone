@@ -6,6 +6,19 @@
     .category1{
         margin: 10px;
         cursor: pointer;
+        img{
+            margin-Bottom: 25px;
+            &:hover{
+                margin-Bottom: 20px;
+            }
+        }
+        p{
+            font-size: 13px;
+            font-weight: 700;
+            padding-bottom: 15px;
+            border-bottom: 3px solid white;
+            &:hover{border-bottom: 3px solid black;}
+        }
     }
     .category2{
         cursor: pointer;
@@ -14,21 +27,19 @@
         margin-Bottom: 20px;
         }
         p{
+            font-size: 13px;
+            font-weight: 700;
+            padding-bottom: 15px;
             border-bottom: 3px solid black;
         }
     }
-    img{
-        margin-Bottom: 25px;
-        &:hover{
-            margin-Bottom: 20px;
-        }
-    }
-    p{
-        font-size: 13px;
-        font-weight: 700;
-        padding-bottom: 15px;
-        border-bottom: 3px solid white;
-        &:hover{border-bottom: 3px solid black;}
-        
+    
+}
+
+@media screen and (max-width: 700px) {
+    .category{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
